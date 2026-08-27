@@ -1,8 +1,8 @@
 # Git Commit History - Laravel Portfolio Project
 
 ## Repository Information
-- **Repository URL**: https://github.com/ronii07/baruela_repo_port
-- **Author**: ronii07 (baruelaronhelyn07@gmail.com)
+- **Repository URL**: https://github.com/davebataller/batatller_repo/
+- **Author**: davebataller (davebataller20@gmail.com)
 - **Branch**: main
 - **Project**: Laravel Portfolio Development
 
@@ -10,7 +10,7 @@
 
 ### Commit 1: Initial commit
 - **Commit Hash**: 6b936e2
-- **Author**: ronii07 (baruelaronhelyn07@gmail.com)
+- **Author**: davebataller (davebataller20@gmail.com)
 - **Date**: 21 minutes ago
 - **Message**: Initial commit: Set up Laravel Blade layout and basic info page
 - **Files Changed**: 80 files changed, 15343 insertions(+)
@@ -87,4 +87,4 @@ This Git commit history demonstrates proper version control practices with:
 - ✅ Professional documentation
 - ✅ Following assignment requirements
 
-The repository is publicly accessible at: https://github.com/ronii07/baruela_repo_port
+The repository is publicly accessible at: https://github.com/davebataller/batatller_repo/
