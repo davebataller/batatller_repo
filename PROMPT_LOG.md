@@ -1,7 +1,7 @@
 # AI Prompt Documentation Log
 
 ## Project: Laravel Portfolio Development
-## Student: Baruela Ronhelyn G
+## Student: Janray Dave T. Bataller
 ## Date: August 27, 2026
 
 ---
@@ -18,7 +18,7 @@
 
 
 ### Task: Create Complete Portfolio with All Sections
-* **Prompt used**: "Create a complete portfolio page with all sections including basic information (name: Baruela Ronhelyn G, contact: 09555383367, email: baruelaronhelyn07@gmail.com, profile picture at public/image/me.jpg), educational background (Bangued North Elementary School 2016-2017, Abra High School Junior High School 2021-2022, Abra High School Senior High School General Academic Strand 2023-2024, Data Center College of the Philippines BSIT), projects section with grid layout, and GitHub repository links"
+* **Prompt used**: "Create a complete portfolio page with all sections including basic information (name: Janray Dave T. Bataller, contact: 09555383367, email: davebataller20@gmail.com, profile picture at public/image/me.jpg), educational background (Bangued North Elementary School 2016-2017, Abra High School Junior High School 2021-2022, Abra High School Senior High School General Academic Strand 2023-2024, Data Center College of the Philippines BSIT), projects section with grid layout, and GitHub repository links"
 * **Result/Output**: Created comprehensive portfolio.blade.php with all required sections: about section with profile image and contact details, educational timeline with school progression, project grid with placeholder cards, and GitHub links section with social-style icons.
 
 ---
@@ -96,20 +96,20 @@
 ---
 
 ### Task: Add Remote Repository
-* **Prompt used**: "Add remote repository https://github.com/ronii07/baruela_repo_port to Git"
-* **Result/Output**: Added remote repository using `git remote add origin https://github.com/ronii07/baruela_repo_port`. Renamed branch from master to main using `git branch -M main` to follow modern Git conventions.
+* **Prompt used**: "Add remote repository https://github.com/davebataller/batatller_repo/ to Git"
+* **Result/Output**: Added remote repository using `git remote add origin https://github.com/davebataller/batatller_repo/`. Renamed branch from master to main using `git branch -M main` to follow modern Git conventions.
 
 ---
 
 ### Task: Push to GitHub
 * **Prompt used**: "Push the portfolio project to GitHub repository with upstream tracking"
-* **Result/Output**: Successfully pushed the project to GitHub using `git push -u origin main`. The branch 'main' was set up to track 'origin/main' and all files were uploaded to the public GitHub repository at https://github.com/ronii07/baruela_repo_port.
+* **Result/Output**: Successfully pushed the project to GitHub using `git push -u origin main`. The branch 'main' was set up to track 'origin/main' and all files were uploaded to the public GitHub repository at https://github.com/davebataller/batatller_repo/.
 
 ---
 
 ### Task: Fix Git Author Configuration
-* **Prompt used**: "Fix Git author configuration to use correct GitHub account (ronii07) and email (baruelaronhelyn07@gmail.com)"
-* **Result/Output**: Fixed Git configuration to use correct author information. Updated git config user.name to "ronii07" and user.email to "baruelaronhelyn07@gmail.com". Amended the initial commit to use the correct author attribution and force-pushed to GitHub.
+* **Prompt used**: "Fix Git author configuration to use correct GitHub account (davebataller) and email (davebataller20@gmail.com)"
+* **Result/Output**: Fixed Git configuration to use correct author information. Updated git config user.name to "davebataller" and user.email to "davebataller20@gmail.com". Amended the initial commit to use the correct author attribution and force-pushed to GitHub.
 
 ---
 
