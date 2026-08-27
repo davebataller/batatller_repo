@@ -1,8 +1,8 @@
 # AI Prompt Documentation Log
 
 ## Project: Laravel Portfolio Development
-## Student: Janray Dave T. Bataller
-## Date: August 27, 2026
+## Student: Janray T. Bataller
+## Date: August 28, 2026
 
 ---
 
@@ -16,10 +16,11 @@
 * **Prompt used**: "Create a basic Laravel Blade layout template for a portfolio website that includes sections for basic information, educational background, projects, and GitHub repository links"
 * **Result/Output**: Created a main Blade layout file (resources/views/layouts/app.blade.php) with responsive navigation bar linking to different portfolio sections (About, Education, Projects, GitHub), clean HTML structure, and footer section.
 
+---
 
 ### Task: Create Complete Portfolio with All Sections
-* **Prompt used**: "Create a complete portfolio page with all sections including basic information (name: Janray Dave T. Bataller, contact: 09555383367, email: davebataller20@gmail.com, profile picture at public/image/me.jpg), educational background (Bangued North Elementary School 2016-2017, Abra High School Junior High School 2021-2022, Abra High School Senior High School General Academic Strand 2023-2024, Data Center College of the Philippines BSIT), projects section with grid layout, and GitHub repository links"
-* **Result/Output**: Created comprehensive portfolio.blade.php with all required sections: about section with profile image and contact details, educational timeline with school progression, project grid with placeholder cards, and GitHub links section with social-style icons.
+* **Prompt used**: "Create a complete portfolio page with all sections including basic information (name: Janray T. Bataller, contact: 09108990147, email: davebataller20@gmail.com, profile picture at public/image/me.jpg), educational background (Peñarrubia Central School, Little Flower High School, DCCP Bachelor of Information Technology 4th Year), projects section with list layout, and GitHub repository links"
+* **Result/Output**: Created comprehensive portfolio.blade.php with all required sections: about section with profile image and contact details, educational timeline with school progression, project list with gradient icons, and GitHub links section with social-style buttons.
 
 ---
 
@@ -96,26 +97,20 @@
 ---
 
 ### Task: Add Remote Repository
-* **Prompt used**: "Add remote repository https://github.com/davebataller/batatller_repo/ to Git"
-* **Result/Output**: Added remote repository using `git remote add origin https://github.com/davebataller/batatller_repo/`. Renamed branch from master to main using `git branch -M main` to follow modern Git conventions.
+* **Prompt used**: "Add remote repository https://github.com/davebataller/batatller_repo to Git"
+* **Result/Output**: Added remote repository using `git remote add origin https://github.com/davebataller/batatller_repo`. Renamed branch from master to main using `git branch -M main` to follow modern Git conventions.
 
 ---
 
 ### Task: Push to GitHub
 * **Prompt used**: "Push the portfolio project to GitHub repository with upstream tracking"
-* **Result/Output**: Successfully pushed the project to GitHub using `git push -u origin main`. The branch 'main' was set up to track 'origin/main' and all files were uploaded to the public GitHub repository at https://github.com/davebataller/batatller_repo/.
+* **Result/Output**: Successfully pushed the project to GitHub using `git push -u origin main`. The branch 'main' was set up to track 'origin/main' and all files were uploaded to the public GitHub repository at https://github.com/davebataller/batatller_repo.
 
 ---
 
 ### Task: Fix Git Author Configuration
-* **Prompt used**: "Fix Git author configuration to use correct GitHub account (davebataller) and email (davebataller20@gmail.com)"
+* **Prompt used**: "the commiter is drian web solution it should not be the account that is used is the it will be used like the https://github.com/davebataller this should be the one to commit"
 * **Result/Output**: Fixed Git configuration to use correct author information. Updated git config user.name to "davebataller" and user.email to "davebataller20@gmail.com". Amended the initial commit to use the correct author attribution and force-pushed to GitHub.
-
----
-
-### Task: Create Word Documentation for Part 3
-* **Prompt used**: "gawa ka ng .docx documentation as is stated in part 3 - create comprehensive documentation including AI prompt log and Git commit history as required in Part 3 of the assignment"
-* **Result/Output**: Created comprehensive documentation file (PORTFOLIO_DOCUMENTATION.md) containing all required Part 3 elements: complete AI prompt log with 16 documented tasks, Git commit history with detailed information, submission checklist, and project conclusion. Also created GIT_COMMIT_HISTORY.md with detailed Git commit information. These files can be converted to .docx format for submission as required.
 
 ---
 
