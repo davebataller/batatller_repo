@@ -1,4 +1,4 @@
-# Laravel Portfolio - Baruela Ronhelyn G
+# Laravel Portfolio - Janray T. Bataller
 
 A personal portfolio website built with Laravel showcasing my educational background, projects, and GitHub repositories. This static portfolio demonstrates web development skills using Laravel Blade templating without database dependencies.
 
@@ -22,7 +22,7 @@ A personal portfolio website built with Laravel showcasing my educational backgr
 ## Project Structure
 
 ```
-auth-demo/
+batatller_repo/
 ├── resources/
 │   ├── views/
 │   │   ├── layouts/
@@ -45,8 +45,8 @@ auth-demo/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
-   cd auth-demo
+   git clone https://github.com/davebataller/batatller_repo.git
+   cd batatller_repo
    ```
 
 2. **Install dependencies**
@@ -113,11 +113,12 @@ This project was developed as part of the BSIT 4 Midterm Activity. All AI prompt
 
 ## Author
 
-**Baruela Ronhelyn G**
-- Email: baruelaronhelyn07@gmail.com
-- Phone: 09555383367
-- Course: Bachelor of Science in Information Technology
-- Institution: Data Center College of the Philippines
+**Janray T. Bataller**
+- GitHub: https://github.com/davebataller
+- Email: davebataller20@gmail.com
+- Phone: 09108990147
+- Course: Bachelor of Information Technology
+- Institution: DCCP
 
 ## License
 

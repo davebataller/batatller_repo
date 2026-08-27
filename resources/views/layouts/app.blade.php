@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Portfolio - Baruela Ronhelyn G</title>
+    <title>Portfolio - Janray T. Bataller</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -28,7 +28,7 @@
 
     <footer class="footer">
         <div class="container footer-content">
-            <p>&copy; 2026 Baruela Ronhelyn G. All rights reserved.</p>
+            <p>&copy; 2026 Janray T. Bataller. All rights reserved.</p>
         </div>
     </footer>
 </body>

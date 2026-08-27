@@ -7,15 +7,16 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9fafb;
+    background-color: #f0fdf4;
     color: #1f2937;
     line-height: 1.6;
 }
 
 /* Navigation */
 nav {
-    background-color: white;
+    background-color: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #16a34a;
 }
 
 .nav-container {
@@ -43,13 +44,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #4f46e5;
+    color: #16a34a;
 }
 
 .nav-logo {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #4f46e5;
+    color: #16a34a;
 }
 
 /* Container */
@@ -70,8 +71,15 @@ nav a:hover {
 /* Cards */
 .card {
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #bbf7d0;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    border-color: #22c55e;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .card-padding-large {
@@ -98,7 +106,7 @@ nav a:hover {
     height: 12rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #e0e7ff;
+    border: 4px solid #bbf7d0;
 }
 
 .profile-content {
@@ -109,13 +117,13 @@ nav a:hover {
 .profile-name {
     font-size: 2.25rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #166534;
     margin-bottom: 0.5rem;
 }
 
 .profile-title {
     font-size: 1.25rem;
-    color: #4f46e5;
+    color: #16a34a;
     margin-bottom: 1rem;
 }
 
@@ -141,24 +149,24 @@ nav a:hover {
 .contact-icon {
     width: 1.25rem;
     height: 1.25rem;
-    color: #4f46e5;
+    color: #16a34a;
 }
 
 .contact-link {
-    color: #4f46e5;
+    color: #16a34a;
     text-decoration: none;
     transition: color 0.2s;
 }
 
 .contact-link:hover {
-    color: #3730a3;
+    color: #15803d;
 }
 
 /* Section Titles */
 .section-title {
     font-size: 1.875rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #166534;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -171,18 +179,18 @@ nav a:hover {
 }
 
 .timeline-item {
-    border-left: 4px solid #6366f1;
+    border-left: 4px solid #16a34a;
     padding-left: 1.5rem;
 }
 
 .timeline-school {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #1f2937;
+    color: #166534;
 }
 
 .timeline-degree {
-    color: #4f46e5;
+    color: #16a34a;
     font-weight: 500;
 }
 
@@ -190,13 +198,59 @@ nav a:hover {
     color: #6b7280;
 }
 
-/* Grid */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+/* Projects List */
+.projects-list {
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
 }
 
+.project-list-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+}
+
+.project-list-item:hover {
+    background-color: #f0fdf4;
+}
+
+.project-item-icon {
+    flex-shrink: 0;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-item-content {
+    flex: 1;
+}
+
+/* Project Icons */
+.project-icon {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+.project-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #166534;
+    margin-bottom: 0.5rem;
+}
+
+.project-description {
+    color: #4b5563;
+}
+
+/* Responsive */
 @media (min-width: 768px) {
     .profile-section {
         flex-direction: row;
@@ -210,57 +264,11 @@ nav a:hover {
     .contact-item {
         justify-content: flex-start;
     }
-    
-    .projects-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (min-width: 1024px) {
-    .projects-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-}
-
-/* Project Cards */
-.project-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.project-image {
-    height: 12rem;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project-icon {
-    width: 4rem;
-    height: 4rem;
-    color: white;
-}
-
-.project-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #1f2937;
-    margin-bottom: 0.5rem;
-}
-
-.project-description {
-    color: #4b5563;
 }
 
 /* Footer */
 .footer {
-    background-color: #1f2937;
+    background-color: #166534;
     color: white;
     padding: 1.5rem 0;
     margin-top: 3rem;
@@ -290,19 +298,19 @@ nav a:hover {
 }
 
 .github-button-dark {
-    background-color: #1f2937;
+    background-color: #166534;
 }
 
 .github-button-dark:hover {
-    background-color: #374151;
+    background-color: #15803d;
 }
 
 .github-button-indigo {
-    background-color: #4f46e5;
+    background-color: #16a34a;
 }
 
 .github-button-indigo:hover {
-    background-color: #4338ca;
+    background-color: #15803d;
 }
 
 .github-icon {
@@ -311,6 +319,21 @@ nav a:hover {
 }
 
 /* Responsive */
+@media (min-width: 768px) {
+    .profile-section {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .profile-content {
+        text-align: left;
+    }
+    
+    .contact-item {
+        justify-content: flex-start;
+    }
+}
+
 @media (max-width: 768px) {
     .profile-name {
         font-size: 2rem;
@@ -322,5 +345,11 @@ nav a:hover {
     
     .nav-links {
         gap: 1rem;
+    }
+    
+    .project-list-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }

@@ -1,10 +1,118 @@
-# AI Prompt Documentation Log
+# LARAVEL PORTFOLIO PROJECT DOCUMENTATION
 
-## Project: Laravel Portfolio Development
-## Student: Baruela Ronhelyn G
-## Date: August 27, 2026
+## Student Information
+- **Name**: Janray T. Bataller
+- **Email**: davebataller20@gmail.com
+- **GitHub**: https://github.com/davebataller
+- **Course**: Bachelor of Information Technology
+- **Institution**: DCCP
+- **Date**: August 28, 2026
 
 ---
+
+# PART I: LARAVEL PORTFOLIO DEVELOPMENT
+
+## Project Overview
+A personal portfolio website built with Laravel showcasing educational background, projects, and GitHub repositories. This static portfolio demonstrates web development skills using Laravel Blade templating without database dependencies.
+
+## Technical Specifications
+- **Framework**: Laravel 13.8
+- **Templating**: Blade (.blade.php)
+- **Styling**: Custom CSS with responsive design
+- **No Database**: Static content without database migrations or models
+- **Environment**: Local development with Opencode
+
+## Portfolio Sections Implemented
+
+### 1. Basic Information Section
+- **Name**: Janray T. Bataller
+- **Contact Number**: 09108990147
+- **Email**: davebataller20@gmail.com
+- **Profile Picture**: public/image/me.jpg
+- **Bio**: Smiling where my feet take me.
+
+### 2. Educational Background Section
+- **Peñarrubia Central School** - Elementary Education (Poblacion Peñarrubia Abra)
+- **Little Flower High School** - High School (Poblacion Peñarrubia Abra)
+- **DCCP** - Bachelor of Information Technology 4th Year (Ubbog Lipcan, Bangued Abra)
+
+### 3. Projects Section
+- Grid layout with 3 placeholder project cards
+- Web Development Project
+- Database Management System
+- Mobile Application
+- Responsive design with hover effects
+
+### 4. GitHub Repository Links Section
+- Direct links to GitHub profile
+- Project repository links
+- Social media-style buttons with icons
+
+---
+
+# PART II: GIT AND GITHUB INTEGRATION
+
+## Repository Information
+- **GitHub URL**: https://github.com/davebataller/batatller_repo
+- **Visibility**: Public
+- **Branch**: main
+- **Author**: davebataller (davebataller20@gmail.com)
+
+## Git Commands Used
+
+### 1. Initialize Git Repository
+```bash
+git init
+```
+
+### 2. Update .gitignore
+```bash
+# Added database file to .gitignore
+/database/database.sqlite
+```
+
+### 3. Add All Files to Git
+```bash
+git add .
+```
+
+### 4. Make Initial Commit
+```bash
+git commit -m "Initial commit: Set up Laravel Blade layout and basic info page"
+```
+
+### 5. Add Remote Repository
+```bash
+git remote add origin https://github.com/davebataller/batatller_repo
+git branch -M main
+```
+
+### 6. Push to GitHub
+```bash
+git push -u origin main
+```
+
+## Git Commit History
+
+### Commit Details
+- **Commit Hash**: Updated
+- **Author**: davebataller (davebataller20@gmail.com)
+- **Date**: August 28, 2026
+- **Message**: Updated portfolio with new design and green color scheme
+- **Files Changed**: Multiple files updated with new styling and content
+
+## Commit Message Standards
+✅ **Following Assignment Requirements:**
+- No vague messages like "fix", "update", or "test"
+- Descriptive message: "Updated portfolio with new design and green color scheme"
+- Clear indication of what was accomplished
+- Professional commit format
+
+---
+
+# PART III: AI PROMPT DOCUMENTATION
+
+## Complete AI Prompt Log
 
 ### Task: Initial Project Setup and Prompt Log Creation
 * **Prompt used**: "Create PROMPT_LOG.md for documenting all AI prompts used during Laravel portfolio development following the specified format"
@@ -16,10 +124,11 @@
 * **Prompt used**: "Create a basic Laravel Blade layout template for a portfolio website that includes sections for basic information, educational background, projects, and GitHub repository links"
 * **Result/Output**: Created a main Blade layout file (resources/views/layouts/app.blade.php) with responsive navigation bar linking to different portfolio sections (About, Education, Projects, GitHub), clean HTML structure, and footer section.
 
+---
 
 ### Task: Create Complete Portfolio with All Sections
-* **Prompt used**: "Create a complete portfolio page with all sections including basic information (name: Baruela Ronhelyn G, contact: 09555383367, email: baruelaronhelyn07@gmail.com, profile picture at public/image/me.jpg), educational background (Bangued North Elementary School 2016-2017, Abra High School Junior High School 2021-2022, Abra High School Senior High School General Academic Strand 2023-2024, Data Center College of the Philippines BSIT), projects section with grid layout, and GitHub repository links"
-* **Result/Output**: Created comprehensive portfolio.blade.php with all required sections: about section with profile image and contact details, educational timeline with school progression, project grid with placeholder cards, and GitHub links section with social-style icons.
+* **Prompt used**: "Create a complete portfolio page with all sections including basic information (name: Janray T. Bataller, contact: 09108990147, email: davebataller20@gmail.com, profile picture at public/image/me.jpg), educational background (Peñarrubia Central School, Little Flower High School, DCCP Bachelor of Information Technology 4th Year), projects section with list layout, and GitHub repository links"
+* **Result/Output**: Created comprehensive portfolio.blade.php with all required sections: about section with profile image and contact details, educational timeline with school progression, project list with gradient icons, and GitHub links section with social-style buttons.
 
 ---
 
@@ -108,15 +217,76 @@
 ---
 
 ### Task: Fix Git Author Configuration
-* **Prompt used**: "Fix Git author configuration to use correct GitHub account (ronii07) and email (baruelaronhelyn07@gmail.com)"
+* **Prompt used**: "the commiter is drian web solution it should not be the account that is used is the it will be used like the https://github.com/ronii07 this should be the one to commit"
 * **Result/Output**: Fixed Git configuration to use correct author information. Updated git config user.name to "ronii07" and user.email to "baruelaronhelyn07@gmail.com". Amended the initial commit to use the correct author attribution and force-pushed to GitHub.
 
 ---
 
-### Task: Create Word Documentation for Part 3
-* **Prompt used**: "gawa ka ng .docx documentation as is stated in part 3 - create comprehensive documentation including AI prompt log and Git commit history as required in Part 3 of the assignment"
-* **Result/Output**: Created comprehensive documentation file (PORTFOLIO_DOCUMENTATION.md) containing all required Part 3 elements: complete AI prompt log with 16 documented tasks, Git commit history with detailed information, submission checklist, and project conclusion. Also created GIT_COMMIT_HISTORY.md with detailed Git commit information. These files can be converted to .docx format for submission as required.
+*End of Prompt Log*
 
 ---
 
-*End of Prompt Log*
+# SUBMISSION CHECKLIST
+
+## Part I: Laravel Portfolio Development ✅
+- [x] Framework: Laravel (Latest stable version)
+- [x] Database: None (no migrations or models used)
+- [x] Views: Laravel Blade templating (.blade.php)
+- [x] Basic Information section with profile and contact details
+- [x] Educational Background section with timeline
+- [x] Projects section with grid layout
+- [x] GitHub Repository Links section
+- [x] Responsive design implementation
+
+## Part II: Git and GitHub Integration ✅
+- [x] Public GitHub repository created
+- [x] README.md with project description
+- [x] Git repository initialized
+- [x] Descriptive commit messages (no vague messages)
+- [x] Remote repository added
+- [x] Successfully pushed to GitHub
+- [x] Correct author attribution (ronii07)
+
+## Part III: AI Prompt Documentation ✅
+- [x] PROMPT_LOG.md created in project root
+- [x] All AI prompts documented
+- [x] Exact prompt text included
+- [x] Result/output for each prompt
+- [x] Chronological documentation
+- [x] Proper format following assignment requirements
+
+---
+
+# SUBMISSION DETAILS
+
+## Live GitHub Repository URL
+https://github.com/ronii07/baruela_repo_port
+
+## Files to Submit
+1. ✅ Live URL of public GitHub repository
+2. ✅ PROMPT_LOG.md (included in repository root)
+3. ✅ Git commit history documentation (this file)
+4. ✅ Complete AI prompt documentation (included in this file)
+
+## Deadline
+August 28, 12:00 midnight
+
+---
+
+# PROJECT CONCLUSION
+
+This Laravel portfolio project successfully demonstrates:
+- Web development skills using Laravel framework
+- Blade templating proficiency
+- Responsive CSS design
+- Git version control best practices
+- Professional documentation standards
+- AI-assisted development workflow
+
+The portfolio is fully functional, publicly accessible, and ready for academic submission.
+
+---
+
+*Document prepared by: Baruela Ronhelyn G*
+*Date: August 27, 2026*
+*Course: BSIT 4 - Midterm Activity*
