@@ -205,20 +205,20 @@ git push -u origin main
 ---
 
 ### Task: Add Remote Repository
-* **Prompt used**: "Add remote repository https://github.com/ronii07/baruela_repo_port to Git"
-* **Result/Output**: Added remote repository using `git remote add origin https://github.com/ronii07/baruela_repo_port`. Renamed branch from master to main using `git branch -M main` to follow modern Git conventions.
+* **Prompt used**: "Add remote repository https://github.com/davebataller/batatller_repo to Git"
+* **Result/Output**: Added remote repository using `git remote add origin https://github.com/davebataller/batatller_repo`. Renamed branch from master to main using `git branch -M main` to follow modern Git conventions.
 
 ---
 
 ### Task: Push to GitHub
 * **Prompt used**: "Push the portfolio project to GitHub repository with upstream tracking"
-* **Result/Output**: Successfully pushed the project to GitHub using `git push -u origin main`. The branch 'main' was set up to track 'origin/main' and all files were uploaded to the public GitHub repository at https://github.com/ronii07/baruela_repo_port.
+* **Result/Output**: Successfully pushed the project to GitHub using `git push -u origin main`. The branch 'main' was set up to track 'origin/main' and all files were uploaded to the public GitHub repository at https://github.com/davebataller/batatller_repo.
 
 ---
 
 ### Task: Fix Git Author Configuration
-* **Prompt used**: "the commiter is drian web solution it should not be the account that is used is the it will be used like the https://github.com/ronii07 this should be the one to commit"
-* **Result/Output**: Fixed Git configuration to use correct author information. Updated git config user.name to "ronii07" and user.email to "baruelaronhelyn07@gmail.com". Amended the initial commit to use the correct author attribution and force-pushed to GitHub.
+* **Prompt used**: "the commiter is drian web solution it should not be the account that is used is the it will be used like the https://github.com/davebataller this should be the one to commit"
+* **Result/Output**: Fixed Git configuration to use correct author information. Updated git config user.name to "davebataller" and user.email to "davebataller20@gmail.com". Amended the initial commit to use the correct author attribution and force-pushed to GitHub.
 
 ---
 
@@ -245,7 +245,7 @@ git push -u origin main
 - [x] Descriptive commit messages (no vague messages)
 - [x] Remote repository added
 - [x] Successfully pushed to GitHub
-- [x] Correct author attribution (ronii07)
+- [x] Correct author attribution (davebataller)
 
 ## Part III: AI Prompt Documentation ✅
 - [x] PROMPT_LOG.md created in project root
@@ -260,7 +260,7 @@ git push -u origin main
 # SUBMISSION DETAILS
 
 ## Live GitHub Repository URL
-https://github.com/ronii07/baruela_repo_port
+https://github.com/davebataller/batatller_repo
 
 ## Files to Submit
 1. ✅ Live URL of public GitHub repository
@@ -287,6 +287,6 @@ The portfolio is fully functional, publicly accessible, and ready for academic s
 
 ---
 
-*Document prepared by: Baruela Ronhelyn G*
-*Date: August 27, 2026*
+*Document prepared by: Janray T. Bataller*
+*Date: August 28, 2026*
 *Course: BSIT 4 - Midterm Activity*
